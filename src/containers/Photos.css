@@ -1,0 +1,15 @@
+.Photo {
+    text-align: center
+}
+
+.Link { 
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.Link:hover { 
+    text-decoration: none;
+    color: rgb(139, 49, 49);
+    cursor: pointer;
+}

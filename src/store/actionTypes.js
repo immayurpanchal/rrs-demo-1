@@ -1,0 +1,2 @@
+export const GET_CAPTION = 'GET_CAPTION';
+export const SET_PHOTO_DETAIL = 'SET_PHOTO_DETAIL';

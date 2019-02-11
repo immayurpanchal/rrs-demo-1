@@ -1,0 +1,21 @@
+.rounded-border { 
+    border-radius: 20px;
+}
+
+.special-card { 
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .7;
+}
+.width-100{
+    width: 100%;
+}
+
+.width-400{
+    width: 400px;
+}
+
+.img { 
+    width: 50%;
+    align-content: center;
+    align-self: center;
+}
