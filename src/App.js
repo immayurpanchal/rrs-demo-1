@@ -1,12 +1,14 @@
-import React from 'react';
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
-import Home from './Home';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Photos from "./containers/Photos";
+import { Switch, Route } from "react-router-dom";
+import Modal from './containers/Modal';
 
 const App = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
+    <Route path="/:id" exact component={Modal} />
+    <Route path="/" exact component={Photos} />
+    <Route render={() => <h1>404 : Not Found</h1>} />
   </Switch>
 );
 
